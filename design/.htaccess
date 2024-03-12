@@ -1,0 +1,29 @@
+<IfModule php5_module>
+	php_flag engine off
+</IfModule>
+
+<IfModule php7_module>
+	php_flag engine off
+</IfModule>
+
+<Files ~ "\.([tT][pP][lL]|[pP][hH][pP].?)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+
+    <IfModule !mod_authz_core.c>
+        Deny from all
+    </IfModule>
+</Files>
+
+<IfModule mod_authz_core.c>
+    Require all granted
+</IfModule>
+
+<IfModule !mod_authz_core.c>
+    Allow from all
+</IfModule>
+
+Options -Indexes
+php_value pcre.backtrack_limit 10000000
+php_value max_input_vars 10000

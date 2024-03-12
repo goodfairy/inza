@@ -1,0 +1,47 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:333:"<script type="text/javascript">
+//<![CDATA[
+(function(_, $) {
+	$(document).ready(function(){
+		$('.ty-captcha__input', '#pages_content_79').css('margin-bottom', '10px').css('width', '100%');		
+		$('.buttons-container', '#pages_content_79').removeClass('buttons-container').addClass('ty-right');
+	});
+}(Tygh, Tygh.$));
+//]]>
+</script>";s:7:"content";s:2113:"                        <div class=" ty-float-left">
+                <div id="pages_content_79">
+ <p>
+	<div class="wysiwyg-content">
+				<h1 class="ty-main-title">Контакты</h1>
+<div class="ty-column4">
+		<div class="ty-pages-contacts__contact-block">
+			<h4>
+                </h4></div></div>
+<p>Мы всегда рады видеть вас в нашем офисе. Если у вас есть какие-либо вопросы, пожалуйста, задайте их нам, мы обязательно вам поможем.</p>
+<p><br></p>
+<p>Ульяновская область, г. Инза, ул. Карла Либнехта, д. 13<br></p>
+<p></p>
+<p>По Ульяновской области</p>
+<p>+8 (8422) 70-52-41</p>
+<p>По России</p>
+<p>&nbsp;+8-800-444-52-41</p>
+<p>info_idk@siltis.ru</p>
+<p><a href="https://yandex.ru/maps/?ll=47.427894%2C54.117241&mode=routes&rtext=54.353718%2C48.363284~53.833762%2C46.363777&rtt=auto&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D33575522033~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0MjczNjkzMzU5EqUB0KDQvtGB0YHQuNGPLCDQo9C70YzRj9C90L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQmNC90LfQtdC90YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INC_0L7RgdC10LvQtdC90LjQtSwg0JjQvdC30LAsINGD0LvQuNGG0LAg0JrQsNGA0LvQsCDQm9C40LHQutC90LXRhdGC0LAsIDEzIgoNgnQ5QhXGVVdC&z=10.01">Маршрут</a></p>
+<p><br></p>
+<p></p>
+<div class="ty-column4 ty-float-right ty-notice"><div <="" div="">
+	</div>
+<div class="ty-column1">
+<!--
+<iframe src="https://yandex.ru/map-widget/v1/?ll=46.357058%2C53.844858&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0MjczNjkzMzU5EqUB0KDQvtGB0YHQuNGPLCDQo9C70YzRj9C90L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQmNC90LfQtdC90YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INC_0L7RgdC10LvQtdC90LjQtSwg0JjQvdC30LAsINGD0LvQuNGG0LAg0JrQsNGA0LvQsCDQm9C40LHQutC90LXRhdGC0LAsIDEzIgoNgnQ5QhXGVVdC&z=14.41" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+-->
+</div></div>
+		
+    	</div>
+</p>
+
+     
+</div>
+
+<!-- Inline script moved to the bottom of the page -->
+                    </div>
+            ";}s:6:"expiry";i:0;}

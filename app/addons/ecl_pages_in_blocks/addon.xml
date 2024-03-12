@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>ecl_pages_in_blocks</id>
+    <name>[eCom Labs] Pages Content In Blocks</name>
+    <description>Show content of the CMS pages, forms and polls in the blocks</description>
+    <version>1.3</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+	<status>active</status>
+    <supplier>eCom Labs</supplier>
+    <supplier_link>https://www.ecom-labs.com</supplier_link>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>eCom Labs</name>
+            <email>contact@ecom-labs.com</email>
+            <url>https://www.ecom-labs.com</url>
+            <phone>+7 963 234 30 03</phone>
+        </author>
+    </authors>
+	<language_variables>
+	    <item id="pages_in_blocks" lang="en">Pages content</item>
+        <item id="pages_in_blocks" lang="ru">Содержимое страниц</item>
+	</language_variables>
+    <translations>
+        <item for="description" lang="ru">Позволяет показывать содержимое страниц, форм и опросов в блоках или на вкладках товара</item>
+        <item for="name" lang="ru">[eCom Labs] Содержимое Страниц В Блоках</item>
+    </translations>
+</addon>

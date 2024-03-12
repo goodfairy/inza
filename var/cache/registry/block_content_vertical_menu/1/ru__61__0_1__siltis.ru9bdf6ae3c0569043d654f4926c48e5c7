@@ -1,0 +1,51 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:529:"<script>
+            function fn_toggle_category(category_id)
+            {
+                if ($('.sub_' + category_id).is(':visible'))
+                {
+                    $('.sub_' + category_id).addClass('hidden_ico');
+                    $('#open_ico_' + category_id).html('+');
+                }
+                else
+                {
+                    $('.sub_' + category_id).removeClass('hidden_ico');
+                    $('#open_ico_' + category_id).html('&nbsp-');
+                }
+            }
+        </script>";s:7:"content";s:3326:"                    <div class="ty-menu ty-menu-vertical">
+    <ul id="vmenu_75" class="ty-menu__items cm-responsive-menu">
+        <li class="ty-menu__item ty-menu__menu-btn visible-phone">
+            <a class="ty-menu__item-link">
+                <i class="ty-icon-short-list"></i>
+                <span>Меню</span>
+            </a>
+        </li>
+        <li class="ty-menu__item cm-menu-item-responsive " style="background-color: #00BF40;"><div class="ty-menu__submenu-item-header"><a href="http://siltis.ru/katalog/"  class="ty-menu__item-link" style="background-color:#00BF40;color:#f0f0f0;margin-left: 0px;">Каталог</a><div class="open_ico"><div class="products_count">&nbsp;15&nbsp;</div><span id="open_ico_5" onclick="fn_toggle_category(5)">+</span></div></div><ul class="subcat"><li class="ty-menu__item cm-menu-item-responsive hidden_ico sub_5" style="background-color: #00BF40;"><div class="ty-menu__submenu-item-header"><a href="http://siltis.ru/katalog/tovary-pischevogo-napravleniya/"  class="ty-menu__item-link" style="background-color:#00BF40;color:#f0f0f0;margin-left: 20px;">Товары пищевого назначения</a><div class="open_ico"><div class="products_count">&nbsp;7&nbsp;</div></div></div></li><li class="ty-menu__item cm-menu-item-responsive hidden_ico sub_5" style="background-color: #00BF40;"><div class="ty-menu__submenu-item-header"><a href="http://siltis.ru/katalog/dlya-selskogo-hozyaystva/"  class="ty-menu__item-link" style="background-color:#00BF40;color:#f0f0f0;margin-left: 20px;">Для сельского хозяйства</a><div class="open_ico"><div class="products_count">&nbsp;5&nbsp;</div></div></div></li><li class="ty-menu__item cm-menu-item-responsive hidden_ico sub_5" style="background-color: #00BF40;"><div class="ty-menu__submenu-item-header"><a href="http://siltis.ru/katalog/produkciya-shirokogo-naznacheniya/"  class="ty-menu__item-link" style="background-color:#00BF40;color:#f0f0f0;margin-left: 20px;">Продукция широкого назначения</a><div class="open_ico"><div class="products_count">&nbsp;3&nbsp;</div></div></div></li><li class="ty-menu__item cm-menu-item-responsive hidden_ico sub_5" style="background-color: #00BF40;"><div class="ty-menu__submenu-item-header"><a href="http://siltis.ru/katalog/dlya-domashnih-zhivotnyh/"  class="ty-menu__item-link" style="background-color:#00BF40;color:#f0f0f0;margin-left: 20px;">Для домашних животных</a><div class="open_ico"><div class="products_count">&nbsp;0&nbsp;</div></div></div></li></ul></li>
+        <style>
+            .open_ico {
+                float: right;
+                color: white;
+                left: -22px;
+                top: -35px;
+                position: relative;
+                font-size: 18px;
+                margin-bottom: -24px;
+                cursor: pointer;
+            }
+            .hidden_ico {
+                display:none !important;
+            }
+            .products_count {
+                float: left;
+                background-color: #f0f0f0;
+                color: #00BF40;
+                margin-top: 3px;
+                margin-right: 4px;
+                border-radius: 7px;
+            }
+        </style>
+
+        <!-- Inline script moved to the bottom of the page -->
+    </ul>
+</div>
+            ";}s:6:"expiry";i:0;}

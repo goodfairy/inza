@@ -1,0 +1,139 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:1961:"<script>
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_66');
+
+        var item = 3,
+            // default setting of carousel
+            itemsDesktop = 3,
+            itemsDesktopSmall = 3;
+            itemsTablet = 2;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+                function outsideNav () {
+            if(this.options.items >= this.itemsAmount){
+                $("#owl_outside_nav_66").hide();
+            } else {
+                $("#owl_outside_nav_66").show();
+            }
+        }
+        
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: [1199, itemsDesktop],
+                itemsDesktopSmall: [979, itemsDesktopSmall],
+                itemsTablet: [768, itemsTablet],
+                itemsMobile: [479, 1],
+                                                autoPlay: false,
+                                slideSpeed: 400,
+                stopOnHover: true,
+                                pagination: false,
+                beforeInit: function () {
+                    $.ceEvent('trigger', 'ce.scroller_init_with_quantity.beforeInit', [this]);
+                },
+                            afterInit: outsideNav,
+                afterUpdate : outsideNav
+            });
+
+              $('#owl_prev_66000').click(function(){
+                elm.trigger('owl.prev');
+              });
+              $('#owl_next_66000').click(function(){
+                elm.trigger('owl.next');
+              });
+
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:3336:"        <div class="ty-mainbox-simple-container clearfix blog">
+                    <h2 class="ty-mainbox-simple-title">
+                                                    Блог
+                                
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+    <div class="owl-theme ty-owl-controls">
+        <div class="owl-controls clickable owl-controls-outside" id="owl_outside_nav_66">
+            <div class="owl-buttons">
+                <div id="owl_prev_66000" class="owl-prev"><span 
+        class="ty-icon ty-icon-left-open-thin"
+                                    ></span></div>
+                <div id="owl_next_66000" class="owl-next"><span 
+        class="ty-icon ty-icon-right-open-thin"
+                                    ></span></div>
+            </div>
+        </div>
+    </div>
+
+<div class="ty-mb-l">
+    <div class="ty-blog-recent-posts-scroller">
+        <div id="scroll_list_66" class="owl-carousel ty-scroller-list">
+
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://siltis.ru/diatomovye-vodorosli/">
+                        <img class="ty-pict     cm-image" alt="" title="" id="det_img_27" width="236" height="220" src="http://siltis.ru/images/blog/8/inz_prodimg.png" />
+
+                    </a>
+                </div>
+                <a href="http://siltis.ru/diatomovye-vodorosli/">Диатомовые водоросли</a>
+               <!--
+               <div class="ty-blog__date">http://siltis.ru/diatomovye-vodorosli/</div>
+               <p></p>
+               <div class="ty-blog__date">02/12/2024</div>
+                -->
+            </div>
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://siltis.ru/chto-takoe-diatomit/">
+                        <img class="ty-pict     cm-image" alt="" title="" id="det_img_25" width="236" height="220" src="http://siltis.ru/images/blog/8/inz_prodimg_6xln-iv.png" />
+
+                    </a>
+                </div>
+                <a href="http://siltis.ru/chto-takoe-diatomit/">Что такое диатомит</a>
+               <!--
+               <div class="ty-blog__date">http://siltis.ru/chto-takoe-diatomit/</div>
+               <p></p>
+               <div class="ty-blog__date">01/25/2024</div>
+                -->
+            </div>
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://siltis.ru/ceolity/">
+                        <img class="ty-pict     cm-image" alt="" title="" id="det_img_26" width="1889" height="1361" src="http://siltis.ru/images/blog/8/inz_banner.png" />
+
+                    </a>
+                </div>
+                <a href="http://siltis.ru/ceolity/">Цеолиты</a>
+               <!--
+               <div class="ty-blog__date">http://siltis.ru/ceolity/</div>
+               <p></p>
+               <div class="ty-blog__date">01/25/2024</div>
+                -->
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<!-- Inline script moved to the bottom of the page -->
+
+</div>
+    </div>
+";}s:6:"expiry";i:0;}

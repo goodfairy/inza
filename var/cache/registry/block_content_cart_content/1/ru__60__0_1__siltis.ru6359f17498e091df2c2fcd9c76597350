@@ -1,0 +1,39 @@
+a:2:{s:4:"data";a:1:{s:7:"content";s:1999:"                        <div class="top-cart-content ty-float-right">
+                    <div class="ty-dropdown-box" id="cart_status_92">
+         <div id="sw_dropdown_92" class="ty-dropdown-box__title cm-combination">
+        <a href="http://siltis.ru/cart/">
+                                                <span 
+        class="ty-icon ty-icon-cart ty-minicart__icon empty"
+                                    ></span>
+                    <span class="ty-minicart-title empty-cart ty-hand">Корзина пуста</span>
+                    <span 
+        class="ty-icon ty-icon-down-micro"
+                                    ></span>
+                            
+        </a>
+        </div>
+        <div id="dropdown_92" class="cm-popup-box ty-dropdown-box__content ty-dropdown-box__content--cart hidden">
+                            <div class="cm-cart-content cm-cart-content-thumb cm-cart-content-delete">
+                        <div class="ty-cart-items">
+                                                            <div class="ty-cart-items__empty ty-center">Корзина пуста</div>
+                                                    </div>
+
+                                                <div class="cm-cart-buttons ty-cart-content__buttons buttons-container hidden">
+                            <div class="ty-float-left">
+                                <a href="http://siltis.ru/cart/" rel="nofollow" class="ty-btn ty-btn__secondary">Корзина</a>
+                            </div>
+                                                        <div class="ty-float-right">
+                                            
+ 
+    <a href="http://siltis.ru/checkout/"  class="ty-btn ty-btn__primary " >Оформить заказ</a>
+                            </div>
+                                                    </div>
+                        
+                </div>
+            
+        </div>
+    <!--cart_status_92--></div>
+
+
+                    </div>
+            ";}s:6:"expiry";i:0;}
